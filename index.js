@@ -17,7 +17,7 @@ const salt= bcrypt.genSaltSync(10);
 const secret= 'asdfe45we45w345wegw345werjktjwertkj';
 
 app.use(cors({
-  origin: '*'
+  origin: 'https://blog-frontend-2oxx.onrender.com'
 }));
 app.use(express.json());
 
